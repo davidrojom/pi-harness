@@ -1,0 +1,16 @@
+# secrets — never commit
+auth.json
+
+# installed packages — regenerated from settings.json on startup
+npm/
+git/
+
+# machine state & caches
+sessions/
+missions/
+models-store.json
+mcp-cache.json
+mcp-onboarding.json
+trust.json
+last-model.json
+run-history.jsonl

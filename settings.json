@@ -1,0 +1,36 @@
+{
+  "lastChangelogVersion": "0.84.3",
+  "theme": "light/dark",
+  "defaultProvider": "zai",
+  "defaultModel": "glm-5.3-flash",
+  "hideThinkingBlock": false,
+  "packages": [
+    "npm:pi-mcp-adapter",
+    "npm:@narumitw/pi-goal",
+    "npm:pi-web-access",
+    "npm:pi-subagents",
+    "npm:@juicesharp/rpiv-ask-user-question",
+    "npm:@juicesharp/rpiv-todo",
+    "npm:pi-lens",
+    "npm:pi-image-paste",
+    "git:github.com/obra/superpowers"
+  ],
+  "skills": ["+skills/brandkit/SKILL.md"],
+  "tuiMode": "regular",
+  "fullscreenScrollbar": "auto",
+  "fullscreenExitOutput": "transcript",
+  "treeFilterMode": "user-only",
+  "doubleEscapeAction": "tree",
+  "enableInstallTelemetry": false,
+  "markdown": {
+    "mermaid": "streaming"
+  },
+  "terminal": {
+    "showTerminalProgress": true
+  },
+  "steeringMode": "all",
+  "defaultProjectTrust": "always",
+  "warnings": {
+    "anthropicExtraUsage": false
+  }
+}
