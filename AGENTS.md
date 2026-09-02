@@ -11,3 +11,7 @@
 ## Asking the user questions
 
 - Whenever the agent needs to ask the user anything —including simple yes/no confirmations— it must use the `ask_user_question` tool (structured question panel) instead of asking in free text within the response.
+
+## context-mode is active
+
+Use ctx_* tools. The extension injects routing rules — follow them. Note for Pi users: if this project also has CLAUDE.md, Pi.dev reads both files and duplicates routing instructions in context — remove one.

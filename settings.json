@@ -13,13 +13,17 @@
     "npm:@juicesharp/rpiv-todo",
     "npm:pi-lens",
     "npm:pi-image-paste",
-    "git:github.com/obra/superpowers"
+    "git:github.com/obra/superpowers",
+    "npm:context-mode",
+    "npm:@dietrichgebert/ponytail"
   ],
-  "skills": ["+skills/brandkit/SKILL.md"],
+  "skills": [
+    "+skills/brandkit/SKILL.md"
+  ],
   "tuiMode": "regular",
   "fullscreenScrollbar": "auto",
   "fullscreenExitOutput": "transcript",
-  "treeFilterMode": "user-only",
+  "treeFilterMode": "default",
   "doubleEscapeAction": "tree",
   "enableInstallTelemetry": false,
   "markdown": {
