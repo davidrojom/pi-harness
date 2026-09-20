@@ -1,9 +1,9 @@
 {
-  "lastChangelogVersion": "0.84.3",
+  "lastChangelogVersion": "0.85.1",
   "theme": "light/dark",
   "defaultProvider": "zai",
   "defaultModel": "glm-5.3-flash",
-  "hideThinkingBlock": false,
+  "hideThinkingBlock": true,
   "packages": [
     "npm:pi-mcp-adapter",
     "npm:@narumitw/pi-goal",
@@ -15,7 +15,8 @@
     "npm:pi-image-paste",
     "git:github.com/obra/superpowers",
     "npm:context-mode",
-    "npm:@dietrichgebert/ponytail"
+    "npm:@dietrichgebert/ponytail",
+    "npm:@narumitw/pi-btw"
   ],
   "skills": [
     "+skills/brandkit/SKILL.md"
